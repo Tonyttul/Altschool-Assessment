@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./regstyles.css">
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div>
+                    <h1 class="logo">MOYOSORE.<span class="com">com</span></h1>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="container con">
+                <div class="account">
+                    <h2>Register your account</h2>
+                </div>
+                <div class="form">
+                    <form>
+                        <label for="name1">First Name</label>
+                        <input type="text" name="name" id="name1" placeholder="Enter your firstname..." required>
+                        <label for="name2">Last Name</label>
+                        <input type="text" name="name" id="name2" placeholder="Enter your lastname..." required>
+                        <label for="phone">Phone Number</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter phone number..." required>
+                        <br><br>
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Rather not say</option>
+                        </select>
+                        <br>
+                        <label for="country">Country</label>
+                        <input type="text" name="country" id="country" placeholder="Enter country name..." required>
+                        <label for="state">State/Province</label>
+                        <input type="text" name="state" id="state" placeholder="Enter State..." required>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" placeholder="Enter Username..." required>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter Password..." required>
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" name="confirm" id="confirm" placeholder="Re-enter Password..." required>
+                        <input type="submit" value="Sign Up">
+                        <span>Already have an account? <a href="./login.html">Sign in</a>.</span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>

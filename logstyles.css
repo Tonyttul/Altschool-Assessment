@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(63, 1, 1);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    word-spacing: 20px;
+    margin-right: 10px;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+ul li a:hover {
+    background: blueviolet;
+    border-radius: 15px;
+}
+.main {
+    margin: 40px;
+}
+.logo {
+    /* background-color: green; */
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+.com {
+    /* background-color: blueviolet; */
+    font-size: 20px;
+    color: blue;
+}
+.container {
+    background-color: white;
+    width: 350px;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px rgba(155, 91, 91, 0.5);;
+}
+.wrapper {
+    background-color: rgb(63, 1, 1);
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.first {
+    background-color: lightsalmon;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-top: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.second {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+}
+.third {
+    background-color: lightsalmon;
+    width: 80px;
+    height: 45px;
+    border-radius: 40px;
+    position: absolute;
+    top: 45%;
+}
+.fourth {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+}
+.wrapper-2 {
+    background-color: white;
+    width: 280px;
+    height: 260px;
+    position: absolute;
+    top: 70%;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px rgba(53, 50, 50, 0.5);
+}
+.login {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+.form {
+    padding: 15px 15px;
+}
+input[type=text], input[type=password] {
+    width: 230px;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 10px;
+    padding: 10px 10px;
+    outline: none;
+    font-weight: bold;
+    text-align: justify
+}
+input[type=text]:hover, input[type=password]:hover {
+    background-color: rgb(63, 1, 1, 0.1);
+}
+.button {
+    background-color: blueviolet;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.log {
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
