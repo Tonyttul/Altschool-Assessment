@@ -56,7 +56,7 @@ ul li a:hover {
 .container {
     background-color: white;
     width: 350px;
-    height: 500px;
+    height: 550px;
     position: absolute;
     top: 0;
     left: 0;
@@ -141,8 +141,23 @@ input[type=text], input[type=password] {
 input[type=text]:hover, input[type=password]:hover {
     background-color: rgb(63, 1, 1, 0.1);
 }
+.password {
+    text-align: right;
+    margin: 10px auto;
+}
+.password a {
+    text-decoration: none;
+    font-size: 14px;
+    color: blueviolet;
+}
+.password a:hover {
+    color: red;
+}
+::placeholder {
+    color: rgb(219, 210, 210);
+}
 .button {
-    background-color: blueviolet;
+    background-color: blueviolet ;
     width: 200px;
     height: 45px;
     text-align: center;
@@ -151,7 +166,7 @@ input[type=text]:hover, input[type=password]:hover {
     cursor: pointer;
 }
 .button:hover {
-    opacity: 0.8;
+    background-color: rgb(154, 111, 194);
 }
 .log {
     padding-top: 10px;
