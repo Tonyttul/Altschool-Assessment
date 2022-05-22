@@ -1,19 +1,24 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(63, 1, 1);
+}
+main {
+    min-width: 375px;
 }
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 5px;
 }
 ul {
     list-style-type: none;
     word-spacing: 20px;
-    margin-right: 10px;
+    margin: 10px 0 10px 0;
 }
 ul li {
     display: inline-block;
@@ -22,8 +27,8 @@ ul li {
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 8px;
     color: white;
 }
 ul li a:hover {
@@ -31,18 +36,23 @@ ul li a:hover {
     border-radius: 15px;
 }
 .main, .contact {
-    margin: 40px;
+    margin: 30px;
 }
-.logo {
-    /* background-color: green; */
-    font-size: 25px;
-    margin: 10px;
+.calculator p {
+    background-color: rgb(223, 13, 118);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.calculator a {
+    text-decoration: none;
     color: white;
 }
-.com {
-    /* background-color: blueviolet; */
-    font-size: 20px;
-    color: blue;
+.calculator p:hover {
+    opacity: 0.3;
 }
 .name {
     text-align: center;

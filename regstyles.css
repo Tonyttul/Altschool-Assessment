@@ -2,88 +2,114 @@
     padding: 0;
     margin: 0;
 }
+
 body {
-    background-color: rgb(63, 1, 1);
+    background-color: rgb(138, 43, 226);
+    height: 100vh;
 }
+
 header {
     /* background-color: red; */
     position: relative;
 }
+
 nav {
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 5px;
 }
+
 ul {
     list-style-type: none;
     word-spacing: 20px;
-    margin-right: 10px;
+    margin: 10px 0 10px 0;
 }
+
 ul li {
     display: inline-block;
-
 }
+
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 8px;
     color: white;
 }
+
 ul li a:hover {
-    background: blueviolet;
+    background: rgb(223, 13, 118);
     border-radius: 15px;
 }
+
 .main {
     margin: 40px;
-    
 }
-.logo {
-    /* background-color: green; */
-    font-size: 25px;
-    margin: 10px;
+
+.calculator p {
+    background-color: rgb(223, 13, 118);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.calculator a {
+    text-decoration: none;
     color: white;
 }
-.com {
-    /* background-color: blueviolet; */
-    font-size: 20px;
-    color: blue;
+
+.calculator p:hover {
+    opacity: 0.3;
 }
+
 .container {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
+    margin: 80px auto;
     background-color: blueviolet;
-    width: 370px;
-    height: 650px;
+    width: 100vw;
+    height: 600px;
 }
+
 .con {
     display: grid;
     place-items: center;
 }
-div > h2 {
+
+div>h2 {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     padding: 20px auto;
 }
+
 .form {
     background-color: white;
     width: 340px;
-    height: 600px;
+    height: 550px;
     border-radius: 10px;
 }
+
 form {
     margin: 15px
 }
+
 label {
-    line-height: 30px;
+    line-height: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-input[type=text], input[type=number], input[type=password] {
+
+input[type=text],
+input[type=number],
+input[type=password] {
     width: 270px;
     height: 20px;
     padding: 5px 20px;
@@ -92,6 +118,7 @@ input[type=text], input[type=number], input[type=password] {
     border-radius: 3px;
     outline: none;
 }
+
 input[type=submit] {
     background-color: aqua;
     width: 80px;
@@ -101,6 +128,7 @@ input[type=submit] {
     border-radius: 20px;
     cursor: pointer;
 }
+
 span {
     margin: auto 3px;
 }

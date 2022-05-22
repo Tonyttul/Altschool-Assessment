@@ -6,14 +6,16 @@ body {
     background-color: rgb(63, 1, 1);
 }
 nav {
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 5px;
 }
 ul {
     list-style-type: none;
     word-spacing: 20px;
-    margin-right: 10px;
+    margin: 10px 0 10px 0;
 }
 ul li {
     display: inline-block;
@@ -21,38 +23,43 @@ ul li {
 ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 8px;
     color: white;
 }
 ul li a:hover {
-    background: blueviolet;
+    background: rgb(223, 13, 118);
     border-radius: 15px;
 }
 .main {
     margin: 40px;
 }
-.logo {
-    /* background-color: green; */
-    font-size: 25px;
-    margin: 10px;
+.calculator p {
+    background-color: rgb(223, 13, 118);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.calculator a {
+    text-decoration: none;
     color: white;
 }
-.com {
-    /* background-color: blueviolet; */
-    font-size: 20px;
-    color: blue;
+.calculator p:hover {
+    opacity: 0.3;
 }
 .container {
     background-color: white;
     width: 350px;
-    height: 80vh;
+    height: 500px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
+    margin: 90px auto;
     border-radius: 6px;
     box-shadow: 2px 2px 2px 2px rgba(155, 91, 91, 0.5);;
 }
